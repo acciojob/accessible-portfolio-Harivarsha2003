@@ -4,13 +4,40 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Accessible Portfolio</title>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<nav role="navigation">
+		<ul role="list">
+			<li role="listitem"><a href="#about">About</a></li>
+			<li role="listitem"><a href="#projects">Projects</a></li>
+			<li role="listitem"><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+
+	<header>
+		<h1 role="heading">Harivarsha Developer</h1>
+		<img role="img" alt="Profile Picture of Harivarsha S" src="profile.jpg">
+	</header>
+
+	<main>
+		<section id="about">
+			<p>Welcome to my portfolio! I am a passionate front-end developer focused on building inclusive and accessible web experiences for everyone.</p>
+	</section>
+
+		<section id="projects">
+			<h1 role="heading">Projects</h1>
+			<ul role="list">
+				<li role="listitem">Portfolio Project</li>
+				<li role="listitem">The Dog Breed Knowledge Portal</li>
+			</ul>
+		</section>
+	</main>
 
 </body>
 
+	
 </html>
+
+
